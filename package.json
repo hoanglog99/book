@@ -1,0 +1,19 @@
+{
+  "name": "book_projects-master",
+  "version": "1.0.0",
+  "description": "1. Dựng restful api cho books  2. Dựng api mượn sách 3. Viết test code 4. Viết cronjob bắn webhook khi sách gần đến hạn phải trả (kịch bản báo người mượn trả sách) về https://webhook.site/ (vào đây lấy link) ![image](https://user-images.githubusercontent.com/16417051/156130421-7f19080d-d84f-496a-9d34-129b8000a173.png) 5. Tạo docker image 6. Tối ưu docker image 7. Viết Ci",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.4",
+    "mongoose-double": "^0.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
